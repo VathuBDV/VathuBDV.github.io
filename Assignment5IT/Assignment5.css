@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    flex: 1; 
+}
+
+li{
+    padding: 20px;
+}
+
+li a{
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: grey;
+    color: black;
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: gold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Instagram{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    flex: 1;
+}
+
+.instaLogo{
+    fill: white;
+    width: 50px;
+    height: auto;
+}
+
+.instaLogo:hover{
+    fill: grey;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Description{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.DescripP1{
+    margin-bottom: 50px;
+}
+
+.PicProm{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+
+.myselfDescription{
+    color: white;
+    max-width: 740px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.footer-section{
+    display: flex;
+    margin-top: 178px;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;    
+}
+
+.footer-section h3{
+    margin-bottom: 5px;
+    color: white;
+}
+/*--------------------Influence----------------------*/
+.grid-container {
+    display: grid;
+    background-color: red;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1px 1px;
+    grid-template-areas: "Pic-1 Text1" "Text2 Pic2" "Pic3 Text3" "Text4 Pic4";
+    padding: 40px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  
+  
+  .Pic-1 {grid-area: Pic-1; }
+  
+  .Text1 { grid-area: Text1; }
+  
+  .Text2 { grid-area: Text2; }
+  
+  .Pic2 { grid-area: Pic2; }
+  
+  .Pic3 { grid-area: Pic3; }
+  
+  .Text3 { grid-area: Text3; }
+  
+  .Text4 { grid-area: Text4; }
+  
+  .Pic4 { grid-area: Pic4; }
+
+  .Text{
+      padding: 30px;
+  }
+
+  h2{
+      color: gold;
+      margin-bottom: 5px;
+      font-size: 40px;
+  }
+
+  p{
+      color: white;
+      font-size: 25px;
+  }
+/*-------------------Contact-Page--------------------*/
+
+.ContactForm{
+    background-color: red;
+    padding: 100px;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.typebox{
+    max-width: 600px;
+    padding: 5px;
+}
+
+.submit{
+    padding: 25px;
+    margin-top: 25px;
+    color: white;
+    background-color: gold;
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.submit:hover{
+    color: gold;
+    background-color: white;
+  
+}
+
+label{
+    color: gold;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+#province{
+    max-width: 600px;
+    padding: 5px;
+}
+
+#subject{
+    max-width: 50%;
+    height: 200px;
+}
